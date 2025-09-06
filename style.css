@@ -3,3 +3,9 @@
     padding: 0;
     text-decoration: none;
 }
+
+
+.requisitos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
