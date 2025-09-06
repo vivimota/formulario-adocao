@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Formulário de Adoção</h1></legend>
+    <fieldset>
+        <legend><h2>Dados Pessoais</h2></legend>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+    </div>
+    <div>
+        <label for="idade">Idade:</label>
+        <input type="text" name="idade" id="idade">
+    </div>
+    <div>
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco">
+    </div>
+    <div>
+        <label for="tel">Telefone:</label> 
+        <input type="tel" name="tel" id="tel">
+    </div>
+    </fieldset>
+
+    <fieldset>
+        <legend><h2>Família</h2></legend>
+    <div>
+        <label for="casa">Quantas pessoas moram na casa </label>
+        <input type="text" name="casa" id="casa">
+    </div> 
+    <div>
+        <label for="consent">Todos na casa concordam com a adoção :</label><br>
+        <label for="consentimento">Sim</label>
+        <input type="radio" name="consentimento" id="consentimento" value="Sim">
+        <label for="consentimento">Não</label>
+        <input type="radio" name="consentimento" id="consentimento" value="nao">
+    </div>
+    <div>
+        <label for="kids">Há crianças na casa: </label><br>
+        <label for="crianças">Sim</label>
+        <input type= "radio" name="crianças" id="crianças" value="sim">
+        <label for="crianças">Não</label>
+        <input type= "radio" name="crianças" id="crianças" value="nao">
+    </div>
+    <div>
+        <label for="animals">Já possui outros animais </label><br>
+        <label for="animais">Sim</label>
+        <input type="radio" name="animais" id="animais">
+        <label for="animais">Não</label>
+        <input type="radio" name="nao" id="nao">
+    </div>
+    <div>
+        <label for="vac">Os animais da casa são vacinados </label><br>
+        <label for="vacina">Sim</label>
+        <input type="radio" name="vacina" id="vacina">
+        <label for="vacina">Não</label>
+        <input type="radio" name="vacina" id="vacina">
+    </div>
+    </fieldset>
+
+    <fieldset>
+        <legend><h2>Adoção</h2></legend>
+    <div>
+        <label for="motivo">Por que deseja adotar um animal</label>
+        <textarea name="motivo" id="motivo" rows="4" cols="30"></textarea>
+    </div>
+
+     <div>
+        <label for="mud">O que fará se precisar mudar de casa ou cidade</label>
+        <textarea name="motivo" id="mud" rows="4" cols="30"></textarea>
+    </div>
+
+    <div>
+        <label for="cuidados">Tem condições de arcar com alimentação,vacinas e cuidados veterinários</label><br>
+        <label for="cuid">Sim</label>
+        <input type="radio" name="cuidados" id="cuid">
+         <label for="cuid">Não</label>
+        <input type="radio" name="cuidados" id="cuid">
+    </div>
+    </fieldset>
+
+    </fieldset>
+    
+</body>
+</html>
