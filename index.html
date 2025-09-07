@@ -7,9 +7,11 @@
     <title>Formulário</title>
 </head>
 <body>
-    <div class="formulario">
-    <fieldset>
-        <legend><h1>Formulário de Adoção</h1></legend>
+    <div class="titulo">
+        <h1>Formulário de Adoção</h1><br>
+    </div>
+    <form class="formulario">
+      
     <fieldset class="dados">
         <legend><h2>Dados Pessoais</h2></legend>
     <div>
@@ -50,29 +52,9 @@
             <p>O imóvel é : </p>
             <label for="proprio">Próprio</label>
             <input type="radio" name="proprio" id="proprio">
+             <label for="proprio">Alugado</label>
+            <input type="radio" name="proprio" id="proprio">
         </div>
-    </fieldset>
-
-    <fieldset class="familia">
-        <legend><h2>Família</h2></legend>
-    <div>
-        <label for="casa">Quantas pessoas moram na casa </label>
-        <input type="text" name="casa" id="casa">
-    </div> 
-    <div>
-        <p>Todos na casa concordam com a adoção :</p>
-        <label for="consentimento">Sim</label>
-        <input type="radio" name="consentimento" id="consentimento" value="Sim">
-        <label for="consentimento">Não</label>
-        <input type="radio" name="consentimento" id="consentimento" value="nao">
-    </div>
-    <div>
-        <p>Há crianças na casa: </p>
-        <label for="crianças">Sim</label>
-        <input type= "radio" name="crianças" id="crianças" value="sim">
-        <label for="crianças">Não</label>
-        <input type= "radio" name="crianças" id="crianças" value="nao">
-    </div>
     </fieldset>
 
     <fieldset class="animais">
@@ -93,16 +75,47 @@
     </div>
     </fieldset>
 
+    <fieldset class="familia">
+        <legend><h2>Família</h2></legend>
+    <div>
+        <label for="casa">Quantas pessoas moram na casa </label>
+       <select name="" id="">
+        <option selected >Selecione</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>Mais</option>
+       </select>
+    </div> 
+    <div>
+        <p>Todos na casa concordam com a adoção :</p>
+        <label for="consentimento">Sim</label>
+        <input type="radio" name="consentimento" id="consentimento" value="Sim">
+        <label for="consentimento">Não</label>
+        <input type="radio" name="consentimento" id="consentimento" value="nao">
+    </div>
+    <div>
+        <p>Há crianças na casa: </p>
+        <label for="crianças">Sim</label>
+        <input type= "radio" name="crianças" id="crianças" value="sim">
+        <label for="crianças">Não</label>
+        <input type= "radio" name="crianças" id="crianças" value="nao">
+    </div>
+    </fieldset>
+
     <fieldset class="adocao">
         <legend><h2>Adoção</h2></legend>
     <div>
-        <label for="motivo">Por que deseja adotar um animal</label>
-        <textarea name="motivo" id="motivo" rows="4" cols="30"></textarea>
+        <label for="motivo">Por que deseja adotar um animal</label><br>
+        <textarea name="motivo" id="motivo" rows="3" cols="15"></textarea>
     </div>
 
      <div>
-        <label for="mud">O que fará se precisar mudar de casa ou cidade</label>
-        <textarea name="motivo" id="mud" rows="4" cols="30"></textarea>
+        <label for="mud">O que fará se precisar mudar de casa ou cidade</label><br>
+        <textarea name="motivo" id="mud" rows="3" cols="15"></textarea>
     </div>
 
     <div>
@@ -116,8 +129,9 @@
 
     </div>
 
-    </fieldset>
+    <div>
+        <button type="submit">Enviar</button>
     </div>
-    
+</form>
 </body>
 </html>

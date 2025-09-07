@@ -7,14 +7,30 @@
 body{
     font-family: sans-serif;
     font-size: 20px;
-    color: white;
+    color: rgb(48, 26, 26);
     justify-content: center;
     height: 100vh;
+    background-color: rgba(151, 144, 134, 0.445);  
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
     font-family: 'Times New Roman', Times, serif;
-    color: rgba(255, 254, 253, 0.87);
+    color: rgba(75, 70, 65, 0.87);
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(78, 78, 65);
+}
+
+fieldset{
+      border: 3px solid rgb(90, 73, 73);
 }
 .requisitos {
     display: grid;
@@ -24,12 +40,10 @@ h1{
 }
 
 .formulario{
-    background-color: rgba(151, 144, 134, 0.445);
-   
+    margin: 20px;
 }
 
 .dados{
-    width: 80vw;
     padding: 5px;
 }
 
