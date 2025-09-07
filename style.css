@@ -4,8 +4,38 @@
     text-decoration: none;
 }
 
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    height: 100vh;
+}
 
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 254, 253, 0.87);
+}
 .requisitos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+   
+}
+
+.formulario{
+    background-color: rgba(151, 144, 134, 0.445);
+   
+}
+
+.dados{
+    width: 80vw;
+    padding: 5px;
+}
+
+input.dates {
+    display: block;
+    border: none;
+    width: 80%;
+    border-radius: 5px;
 }
